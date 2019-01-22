@@ -21,7 +21,7 @@ before_install:
 
 
 script:
-  - docker run hesteban/react-test npm test -- -coverage
+  - docker run hesteban/react-test npm test -- --coverage
 
 deploy:
   provider: script
